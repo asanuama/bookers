@@ -26,6 +26,7 @@
   <div id="error_explanation">
     <ul>
       <% @book.errors.full_messages.each do |message| %>
+         <p>! error</p>
         <li><%= message %></li>
       <% end %>
     </ul>
